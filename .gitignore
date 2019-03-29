@@ -103,6 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-#html
+#webpages
 .html
-
+.php
