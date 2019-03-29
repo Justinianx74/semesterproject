@@ -104,5 +104,5 @@ venv.bak/
 .mypy_cache/
 
 #webpages
-.html
-.php
+*.html
+*.php
