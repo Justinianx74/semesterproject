@@ -6,5 +6,5 @@ echo 'The high today is' $high
 low=$(cat wx.php | egrep 'p class="temp low">Low: [0-9]{1,3}&deg;F</p>' | egrep -o '[0-9]{1,3}' | head -1)
 echo 'The low today is' $low
 summary=$(cat wx.php | egrep '<p class="summary">[^<]*</p>' | sed 's/<[^>]*>\([^<]*\)<\/p>/\1/')
-echo "It's currently" ${summary,,} "today"
+echo "It's currently" ${summary,,} "right now"
 rm wx.php
