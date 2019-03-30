@@ -8,5 +8,7 @@ sleep 2
 printf '\nRunning quote script\n\n'
 bash ~/Documents/school/cs2930/semesterproject/quote.sh
 sleep 2
+printf '\nRunning holiday script\n\n'
+bash ~/Documents/school/cs2930/semesterproject/day.sh
+sleep 2
 printf '\n'
-
