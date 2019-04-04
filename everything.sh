@@ -1,8 +1,7 @@
-printf 'Running weather script\n\n'
+printf '\nRunning weather script\n\n'
 bash ~/Documents/school/cs2930/semesterproject/weather.sh
-printf '\n'
 sleep 1 
-printf 'Running word script\n\n'
+printf '\nRunning word script\n\n'
 bash ~/Documents/school/cs2930/semesterproject/word.sh
 sleep 1
 printf '\nRunning quote script\n\n'
