@@ -1,3 +1,4 @@
+#!/bin/bash
 printf '\nRunning weather script\n\n'
 bash ~/Documents/school/cs2930/semesterproject/weather.sh
 sleep 1 
