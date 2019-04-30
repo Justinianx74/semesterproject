@@ -11,4 +11,8 @@ sleep 1
 printf '\nRunning holiday script\n\n'
 bash ~/Documents/school/cs2930/semesterproject/day.sh
 sleep 1
+printf '\nRunning Blues script\n\n'
+bash ~/Documents/school/cs2930/semesterproject/blues.sh
+sleep 1
 printf '\n'
+
